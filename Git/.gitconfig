@@ -8,7 +8,7 @@
 	fa = fetch --all
 	fw = fresh-whatsup
 	i = interactive-rebase
-	k = commit --mesage
+	k = commit --message
 	l = log-branch
 	g = graph
 	ga = graph
@@ -120,4 +120,3 @@
 	requireForce = false
 [commit]
 	status = false
-
