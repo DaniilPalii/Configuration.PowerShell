@@ -36,8 +36,8 @@
 	graph-all = graph --all
 	ignore-locally = update-index --assume-unchanged
 	last-commit-comment = log -1 --pretty=%B
-	log-branch = log-branch-verbose ${1:-head} --oneline --pretty='%C(dim yellow)%h %Creset- %C(no-dim blue)%aN %Creset- %Creset%s%C(auto)%d %Creset- %C(dim cyan)%ad' --date=relative
-	log-branch-verbose = log origin/$(git dev-branch)..${1:-head}
+	log-branch = ! git log-branch-verbose ${1:-head} --oneline --pretty='%C(dim yellow)%h %Creset– %C(no-dim blue)%aN %Creset– %Creset%s%C(auto)%d %Creset– %C(dim cyan)%ad' --date=relative
+	log-branch-verbose = ! git log origin/$(git dev-branch)..${1:-head}
 	log-short = log --oneline --graph -15
 	prepare-to-mr = ! git fmrebase && git push --force-with-lease
 	prepare-to-mr-interactive = ! git fmrebase-interactive && git push --force-with-lease
