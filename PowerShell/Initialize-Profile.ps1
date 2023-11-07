@@ -1,0 +1,6 @@
+. "$PSScriptRoot\Set-Aliases.ps1"
+& "$PSScriptRoot\Set-Keys.ps1"
+& "$PSScriptRoot\Register-ArgumentCompleters.ps1"
+& "$PSScriptRoot\Set-Style.ps1"
+& "$PSScriptRoot\Set-OhMyPoshPrompt.ps1"
+& "$PSScriptRoot\ConfigureVariables.ps1"
