@@ -24,6 +24,7 @@
 	clean-all = clean -d
 	dev-branch = config custom.devbranch
 	edit-global-config = config --edit --global
+	delete-remote-branch = push origin -d
 	describe-branch = log-branch-verbose ${1:-head} --oneline --pretty='%s'
 	finish-branch = ! branchToDelete=$(git current-branch) && git checkout $(git dev-branch) && git pull && git branch -d $branchToDelete && git push origin --delete $branchToDelete
 	finish-branch-force = ! branchToDelete=$(git current-branch) && git checkout $(git dev-branch) && git pull && git branch -D $branchToDelete && git push origin --delete $branchToDelete
