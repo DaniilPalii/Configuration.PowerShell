@@ -13,3 +13,4 @@ Set-Alias g git
 Set-Alias 7z "$env:ProgramFiles\7-Zip\7z.exe"
 Set-Alias rider "${env:ProgramFiles(x86)}\JetBrains\JetBrains Rider 2023.1.4\bin\rider64.exe"
 Set-Alias adb "${env:ProgramFiles(x86)}\Android\android-sdk\platform-tools\adb.exe"
+Set-Alias vs "$env:ProgramFiles\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe"
