@@ -1,6 +1,7 @@
 # Default command aliases
 Set-Alias get Get-Item
 Set-Alias rename Rename-Item
+Set-Alias rn Rename-Item
 Set-Alias grep Select-String
 # My custom command aliases
 Set-Alias nf New-File
