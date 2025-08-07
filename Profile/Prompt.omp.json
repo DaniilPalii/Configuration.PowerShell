@@ -91,5 +91,8 @@
       "newline": true
     }
   ],
+  "secondary_prompt": {
+	  "template": "  "
+  },
   "version": 3
 }
